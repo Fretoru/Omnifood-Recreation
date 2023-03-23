@@ -22,7 +22,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 3.2rem;
+  gap: 4.8rem;
 }
 
 .main-nav-link:link,
@@ -267,13 +267,6 @@
   height: 2.4rem;
   width: 2.4rem;
   color: #e67e22;
-}
-
-.list-item {
-  font-size: 1.8rem;
-  display: flex;
-  align-items: center;
-  gap: 1.6rem;
 }
 
 .list-item strong {
@@ -532,7 +525,7 @@
   color: #aaa;
 }
 
-.btn--cta {
+.btn--form {
   display: inline-block;
   text-decoration: none;
   border: none;

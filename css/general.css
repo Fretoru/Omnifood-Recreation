@@ -16,6 +16,7 @@ Default: 1
 Small: 1.05
 Medium: 1.2
 Paragraph default: 1.6
+Large: 1.8
 
 - Letter Spacing
 -0.5px
@@ -105,6 +106,14 @@ p {
   grid-template-columns: repeat(4, 1fr);
 }
 
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
+
 .primary-heading,
 .secondary-heading,
 .tertiary-heading {
@@ -116,7 +125,7 @@ p {
 
 .primary-heading {
   margin-bottom: 3.2rem;
-  font-size: 6.2rem;
+  font-size: 5.2rem;
 }
 
 .secondary-heading {
