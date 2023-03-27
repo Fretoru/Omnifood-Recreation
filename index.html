@@ -16,6 +16,12 @@
       rel="stylesheet"
     />
 
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
     <title>Omnifood</title>
   </head>
   <body>
@@ -25,11 +31,15 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">How it works</a></li>
-          <li><a class="main-nav-link" href="#">Meals</a></li>
-          <li><a class="main-nav-link" href="#">Testimonials</a></li>
-          <li><a class="main-nav-link" href="#">Pricing</a></li>
-          <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
+          <li>
+            <a class="main-nav-link" href="#how-it-works">How it works</a>
+          </li>
+          <li><a class="main-nav-link" href="#meals">Meals</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#pricing">Pricing</a></li>
+          <li><a class="main-nav-link nav-cta" href="#cta">Try for free</a></li>
         </ul>
       </nav>
 
@@ -51,8 +61,10 @@
               eat healthy again. Tailored to your personal tastes and
               nutritional needs.
             </p>
-            <a class="btn btn--primary" href="#">Start eating well</a>
-            <a class="btn btn--secondary" href="#">Learn more &darr;</a>
+            <a class="btn btn--primary" href="#cta">Start eating well</a>
+            <a class="btn btn--secondary" href="#how-it-works"
+              >Learn more &darr;</a
+            >
 
             <div class="customers-box">
               <div class="customers">
@@ -136,7 +148,7 @@
         </div>
       </section>
 
-      <section class="section-how-it-works">
+      <section id="how-it-works" class="section-how-it-works">
         <div class="container">
           <p class="subheading">How it works</p>
           <h2 class="secondary-heading">
@@ -198,7 +210,7 @@
         </div>
       </section>
 
-      <section class="section-meals">
+      <section id="meals" class="section-meals">
         <div class="container">
           <p class="subheading text-align-center">Meals</p>
           <h2 class="secondary-heading text-align-center">
@@ -338,7 +350,7 @@
         </div>
       </section>
 
-      <section class="section-testimonials">
+      <section id="testimonials" class="section-testimonials">
         <div class="testimonial-grid">
           <div class="testimonial-container">
             <p class="subheading">Testimonials</p>
@@ -487,7 +499,7 @@
         </div>
       </section>
 
-      <section class="section-pricing">
+      <section id="pricing" class="section-pricing">
         <p class="subheading text-align-center">Pricing</p>
         <h2 class="secondary-heading text-align-center">
           Eating well without breaking the bank
@@ -516,7 +528,7 @@
               </li>
             </ul>
             <div class="text-align-center">
-              <a class="btn btn--primary" href="#">Start eating well</a>
+              <a class="btn btn--primary" href="#cta">Start eating well</a>
             </div>
           </div>
           <div class="pricing-box pricing-box--complete">
@@ -542,7 +554,7 @@
               </li>
             </ul>
             <div class="text-align-center">
-              <a class="btn btn--primary" href="#">Start eating well</a>
+              <a class="btn btn--primary" href="#cta">Start eating well</a>
             </div>
           </div>
         </div>
@@ -554,7 +566,6 @@
         </aside>
       </section>
 
-      <section class="section- class="nav-col"features"></section>
       <div class="container grid grid--4-cols">
         <div class="feature">
           <ion-icon class="feature-icon" name="infinite-outline"></ion-icon>
@@ -590,7 +601,7 @@
         </div>
       </div>
 
-      <section class="section-cta">
+      <section id="cta" class="section-cta">
         <div class="container">
           <div class="cta">
             <div class="form-box">
@@ -659,18 +670,20 @@
             </li>
           </ul>
           <p class="copyright">
-            Copyright &copy; 2027 by Omnifood,<br> Inc. All rights reserved.
+            Copyright &copy; <span class="year">2027</span> by Omnifood,<br />
+            Inc. All rights reserved.
           </p>
         </div>
         <div class="address-col">
           <p class="footer-subheading">Contact us</p>
           <address class="contacts">
             <p class="address">
-              623 Harrison St., 2nd Floor, <br> San Francisco, CA 94107
+              623 Harrison St., 2nd Floor, <br />
+              San Francisco, CA 94107
             </p>
             <p>
               <a class="footer-link" href="tel:415-201-6370">415-201-6370</a>
-              <br>
+              <br />
               <a class="footer-link" href="mailto:hello@omnifood.com"
                 >hello@omnifood.com</a
               >
